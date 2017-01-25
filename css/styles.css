@@ -231,10 +231,32 @@ nav a:hover {
   width: 100%;
 }
 
+span.welcome {
+    color: #871719;
+}
+
+.small-txt {
+    font-size: 80%;
+}
+
+.email-input {
+    height: 40px;
+    border: 1px solid #c0af8e;
+    border-radius: 3px;
+}
+
 
 /* ==========================================================================
   Buttons
   ========================================================================== */
+
+.email-btn {
+    height: 40px;
+    font-family: 'Roboto Slab';
+    font-size: 80%;
+    font-weight: 700;
+    background-color: #871719;
+}
 
 a.hero-button:link {
   font-size: 140%;
@@ -253,6 +275,8 @@ a.hero-button:hover {
 /* ==========================================================================
    FORMS
    ========================================================================== */
+
+/*
 
 form {
 
