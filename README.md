@@ -27,9 +27,9 @@ refer to the site.pdf file included in this repo to see what the target style sh
 2. Add a subheading (h2) with the text "WELCOME TO LOUIE'S"
 3. Add the following paragraph after the subheading:```
     Enjoy the old-school ambiance, original wooden booths sentimentally etched by our loyal customers, the black and white art deco floors worn by time, turn of the century tin ceilings and faded murals tell tale of a bygone era. Sit back, relax, enjoy the smell of simmering tomatoes and hot pizza, feel the warmth and camaraderie, hear the laughter and conversation of happy diners and you feel like you are home again, somewhere familliar, comfortable, affordable, family centered and “ORIGINAL”. ```
-5. Use the grid system classes `col` and `span_{columns}_of_2` to make the content take up the full width.  
-6. Notice that the content doesn't line up with the existing content.  The header has a `div` with the class `wrap` which limits the width of the content.  Let's apply this to our welcome section.
-7. Finally, make just the name "Louie's" in the subheading the color `#871719` (dark red).  Hint:  You can use `span` elements inside the `h2` element to apply special stying to specific text.
+4. Use the grid system classes `col` and `span_{columns}_of_2` to make the content take up the full width.  
+5. Notice that the content doesn't line up with the existing content.  The header has a `div` with the class `wrap` which limits the width of the content.  Let's apply this to our welcome section.
+6. Finally, make just the name "Louie's" in the subheading the color `#871719` (dark red).  Hint:  You can use `span` elements inside the `h2` element to apply special stying to specific text.
 
 ##Complete the Newsletter Section
 
@@ -55,5 +55,20 @@ In order to give our containing `wrap` element height, we must clear these float
 Our grid system has a `section` class and a `group` class that can clear our floats.
 Wrap the col elements in a new div with these two classes to fix our floating issue.  
 
-  
+#Week 3 Challenge
+
+Time for a history lesson!  Let's complete the History Section of the site.
+
+1.) Find the history section in index.html.
+2.) As before, use our grid system classes (wrap, section, group, col_ span_{x}_of_2) to create two columns.  
+3.) On the left column: 
+    a.) add a subheading of "Louie's History".
+    b.) add the following paragraphs:
+    ```Louie’s was founded in 1929 by Italian immigrant Louie Bianchi. Louie’s was Originally established on Main Street, in the Heart of Louisville. After losing his lease on Main Street, Louie Bianchi dismantled his original coal fired brick oven and moved it to 271 Clay Street where he continued to run and grow his business and refine his pizza recipe to perfection.```
+    ```Bianchi ran his business until 1954 when he sold the pizzeria to the Romano Brothers. Augustine Romano bought the business from his brothers and he continued to own and operate Louie’s pizzeria until he passed away in 1984, passing his legacy on.```
+4.) On the right column add the `louie-photo.png` image.  
+5.) Finally, for the background of this section, set the background to be `louies-bg-making-red.png`.
+
+Hint: Check out this great tutorial on how to get images to fill the background of an element:  
+https://css-tricks.com/perfect-full-page-background-image/
 
