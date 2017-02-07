@@ -1,8 +1,17 @@
 
 var menuData = 'https://cdn.rawgit.com/Bumbolio/567f8ed0ac99703fbbe24a64638fcc81/raw/9a0930b07e6b746a76e058ac956e5528aedcfacf/menu.json';
 
-//Add your code here
 
+$.ajax({
+    type: "GET",
+    url: menuData,
+    dataType: 'json',
+    success: function(data) {
+        $.each(data.Food, function(i, menu) {
+            $("#foodcontainer").append(buildTable(menu));
+        });
+    },
+});
 
 function buildTable(section) {
    var table = $('<table class="menu">');
